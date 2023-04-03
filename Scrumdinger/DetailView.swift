@@ -89,7 +89,7 @@ struct DetailView: View {
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView(content: {
-            DetailView(scrum: .constant(DailyScrum.exampleData.first!))
+            DetailView(scrum: .constant(DailyScrum.sampleData.first!))
         })
         
     }

@@ -32,7 +32,7 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        let scrum = DailyScrum.exampleData.first!
+        let scrum = DailyScrum.sampleData.first!
         CardView(scrum: scrum)
             .background(scrum.theme.mainColor)
             .previewLayout(.fixed(width: 400, height: 60))

@@ -35,7 +35,7 @@ struct ScrumsView: View {
 
 struct ScrumsView_Previews: PreviewProvider {
     static var previews: some View {
-        let scrums = DailyScrum.exampleData
+        let scrums = DailyScrum.sampleData
         NavigationView {
             ScrumsView(scrums: .constant(scrums))
         }
