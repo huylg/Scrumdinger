@@ -13,6 +13,7 @@ struct DetailEditView: View {
     var body: some View {
         Form {
             Section {
+                TextField("Title", text: $data.title)
                 HStack {
                     Slider(value: $data.lengthInMinutes, in: 5 ... 30, step: 1) {
                         Text("Length")
