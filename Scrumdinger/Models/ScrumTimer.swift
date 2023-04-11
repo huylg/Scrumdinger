@@ -69,7 +69,7 @@ class ScrumTimer: ObservableObject {
         
         secondsElapsed = index * secondsElapsed
         secondsRemaining = lengthInSeconds - secondsElapsed
-       startDate = Date()
+        startDate = Date()
         
 
         timer = Timer.scheduledTimer(withTimeInterval: frequency, repeats: true) { [weak self] timer in
